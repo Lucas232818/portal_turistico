@@ -7,3 +7,4 @@ Site desenvolvido para apresentar destinos turísticos do Brasil.
 - Lucas Henrique Delvage
 
 ## Link do site
+https://github.com/Lucas232818/portal_turistico.git
