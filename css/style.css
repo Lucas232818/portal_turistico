@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+/* Section Hero */
+.hero  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.hero div {
+    color:rgb(29, 128, 32); 
+}
+
+.hero div h1 {
+    font-size: 50px;
+}
+/* Banner */
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+/* Menu principal */
+.menu {
+    list-style: none;/*marcadores da lista*/
+    margin: 0;/* Remove a margem do elemento ul*/
+    padding: 0;/*Remove a margem interna (padding) do elemento ul*/
+    background-color: rgb(9, 37, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+/* Itens Principais */
+.menu > li { /*aceesar o primeiro li da ul*/
+    display:inline-flex;/*alinh horizontalmente*/
+    position:relative;/*Posiciona um elemento dentro do outro*/
+}
+.menu li a {
+    color: white;/*Trocar cor do texto */
+    text-decoration: none;/*Remover linha do link*/
+    padding: 15px;
+    display: block;
+}
+/* Hover passar o mouse sobre o link */
+.menu li a:hover{
+    background-color: #7e7d7d;
+    
+}
+/* Submenu */
+.submenu {
+    display:none ;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(17, 46, 150) ;
+    position: absolute;/*Posicionamento livre */
+    left: 0;
+    top: 100%;/*apereça comletamente abaixo do item*/
+}
+/* Itens do Submenu */
+.submenu li {
+    display: block;
+}
+
+/* Mostrar o submenu */
+.menu li:hover .submenu {
+    display: block;
+}
+
+.layout {
+    display: flex;
+    min-width: 300px;
+}
+
+
+.sidebar {
+    width: 200px;
+    background-color: #ccc;
+    padding: 15px;
+    height: 100%;
+}
+
+.sidebar h4 {
+    color: rgb(29, 128, 32);
+}
+.content {
+    padding: 20px;
+    background-color: white;
+    flex: 1;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card img {
+    width: 100%;
+}
+.card {
+    background-color: rgb(217, 253, 241);
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 200px;
+}
+
+.conteudo_principal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color:rgb(9, 37, 10); 
+    color: white;
+    padding: 5px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.footer p {
+    margin: 10px;
+}
+ 
+.titulo{
+    color: rgb(29, 128, 32); 
+    
+}
+.titulo2{
+      color: rgb(29, 128, 32); 
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      display: block;
+      padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: white;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+h2 {
+    text-align: center;
+}
+.row{
+    gap:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    resize: vertical;
+}
+
+/* BOTÕES */
+.actions{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+button {
+    flex:1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit {
+    background: #4fCA50;
+    color: white;
+}
+.submit:hover {
+    background-color: blue;
+}
+.reset {
+    background-color: #ccc;
+    
+}
+
+.reset:hover{
+    background-color: red;
+}
+
+.iframe{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
