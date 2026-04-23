@@ -8,3 +8,4 @@ Site desenvolvido para apresentar destinos turísticos do Brasil.
 
 ## Link do site
 https://github.com/Lucas232818/portal_turistico.git
+ https://lucas232818.github.io/portal_turistico/
